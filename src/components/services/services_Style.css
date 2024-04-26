@@ -1,0 +1,34 @@
+
+.post{
+    padding-top: 50px;
+
+}
+.divIcon{
+    box-shadow: 0px 3px 3px var(--main-color_text2);
+    border-radius: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+
+}
+.post .carousel .slide img{
+    aspect-ratio: 4/3;
+    object-fit: cover;
+    margin-bottom: 20px;
+}
+.divbuttom{
+    display: inline;
+    margin: 10px;
+}
+.postIcon {
+    background-color: var(--main_post-color); /* تغییر رنگ پس زمینه به شفاف */
+padding: 1px;
+border-radius: 10px;
+    font-weight: bold;
+    height: 30px; /* افزایش ارتفاع */
+    width: 30px; /* افزایش عرض */
+margin: 5px;
+}
+.imgSize {
+    max-width: 300px;
+    height: 300px;
+}

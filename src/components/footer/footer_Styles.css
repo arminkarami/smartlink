@@ -1,0 +1,7 @@
+
+.bg_Fooder{
+    background-image: linear-gradient(350deg, var(--color-background_1) 0%, var(--color-background_2) 64%);
+    color: var(--main-color_text);
+}
+
+

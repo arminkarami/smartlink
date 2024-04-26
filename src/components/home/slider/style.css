@@ -1,0 +1,31 @@
+
+.video-background video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 80vh;
+    min-height: 600px;
+    object-fit: cover;
+
+}
+
+@media screen and (max-width: 601px) {
+    .slider-none {
+        display: none;
+    }
+}
+
+.sliders {
+    min-height: 600px;
+    max-width: 100vw!important;
+    width: 100%!important;
+    height: 80vh;
+}
+.carousel .row{
+    padding-top: 30px;
+    align-items: center;
+    height: 50vh;
+   margin: auto;
+    width: 70%;
+}
