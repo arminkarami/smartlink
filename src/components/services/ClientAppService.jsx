@@ -56,14 +56,6 @@ export default function ClientAppService() {
                     </Col>
                     <Col md={6} className="m-auto">
                         <Carousel>
-                            {/*<Carousel.Item>
-                                <img src="/img/16520440_hc-appliances-pairingfinder-teaser-1500x1500.webp"
-                                     className="img-fluid" alt="Smart Home"/>
-                            </Carousel.Item>
-                            <Carousel.Item>
-                                <img src="/img/19383004_Siemens_Home_Connect_Laundry_Smartwatches_3_4.webp"
-                                     className="img-fluid" alt="Smart Home"/>
-                            </Carousel.Item>*/}
                             <Carousel.Item>
                                 <img src="https://firebasestorage.googleapis.com/v0/b/smartlink-pro.appspot.com/o/booking.png?alt=media&token=ba83e84e-d9f1-4876-a56a-81e583683859" className="img-fluid w-100"
                                      alt="Smart Home"/>

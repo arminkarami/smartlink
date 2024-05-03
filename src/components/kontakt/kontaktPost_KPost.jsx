@@ -1,9 +1,9 @@
 import React from 'react';
 import FadeIn from '../fadeln/fadeln';
-import {Row, Col, Form, Button} from 'react-bootstrap';
+import {Row, Col, Form, Button, Breadcrumb} from 'react-bootstrap';
 import './kontaktPost_Styles.css'
 
-export default function ContactInfo() {
+export default function ContactInfo(data1){
     return (
         <FadeIn>
             <section className="py-5 p-5 mt-5 mainsection">
@@ -28,8 +28,9 @@ export default function ContactInfo() {
                                         <path d="M8 8a2 2 0 1 1 0-4 2 2 0 0 1 0 4zm0 1a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"/>
                                     </svg>
                                     <h2 className="mt-5 text_Color2">Address</h2>
-                                    <div className="text-muted">Mariahilfestraße 21/2/3,</div>
-                                    <div className="text-muted">Wien 1070</div>
+                                    <div className="text-muted">{data1.data.data.data[0] !== undefined && data1.data.data.data[0].address} </div>
+                                    <br/>
+
                                 </div>
                             </Col>
                             {/* Call Us */}
@@ -41,8 +42,9 @@ export default function ContactInfo() {
                                             d="M3.654 1.328a.678.678 0 0 0-1.015-.063L1.605 2.3c-.483.484-.661 1.169-.45 1.77a17.568 17.568 0 0 0 4.168 6.608 17.569 17.569 0 0 0 6.608 4.168c.601.211 1.286.033 1.77-.45l1.034-1.034a.678.678 0 0 0-.063-1.015l-2.307-1.794a.678.678 0 0 0-.58-.122l-2.19.547a1.745 1.745 0 0 1-1.657-.459L5.482 8.062a1.745 1.745 0 0 1-.46-1.657l.548-2.19a.678.678 0 0 0-.122-.58L3.654 1.328zM1.884.511a1.745 1.745 0 0 1 2.612.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511z"/>
                                     </svg>
                                     <h2 className="mt-5 text_Color2">Phone</h2>
-                                    <div className="text-muted">+4367762122554</div>
-                                    <div className="text-muted">+4367764404440</div>
+                                    { data1.data.data.data[0]!==undefined && data1.data.data.data[0].phone.length > 0 && data1.data.data.data[0].phone.map(phone => (
+                                        <div className="text-muted">{phone}</div>
+                                        ))}
                                 </div>
                             </Col>
                             {/* Open Hours */}
@@ -57,8 +59,8 @@ export default function ContactInfo() {
                                             d="M7.5 3a.5.5 0 0 1 .5.5v5.21l3.248 1.856a.5.5 0 0 1-.496.868l-3.5-2A.5.5 0 0 1 7 9V3.5a.5.5 0 0 1 .5-.5z"/>
                                     </svg>
                                     <h2 className="mt-5 text_Color2">Opening Hours</h2>
-                                    <div className="text-muted">MO - FR</div>
-                                    <div className="text-muted">um 9:00 Uhr - um 16:00 Uhr</div>
+                                    <div dangerouslySetInnerHTML={{ __html:data1.data.data.data[0]!==undefined && data1.data.data.data[0].openningHour }}></div>
+                                    <br/>
                                 </div>
                             </Col>
                             {/* Email Us */}
@@ -70,8 +72,10 @@ export default function ContactInfo() {
                                             d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4Zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1H2Zm13 2.383-4.708 2.825L15 11.105V5.383Zm-.034 6.876-5.64-3.471L8 9.583l-1.326-.795-5.64 3.47A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.741ZM1 11.105l4.708-2.897L1 5.383v5.722Z"/>
                                     </svg>
                                     <h2 className="mt-5 text_Color2">Email</h2>
-                                    <div className="text-muted">arminkarami@gamil.com</div>
-                                    <div className="text-muted">info@arminkarami.com</div>
+                                    { data1.data.data.data[0]!==undefined && data1.data.data.data[0].email.length > 0 && data1.data.data.data[0].email.map(email => (
+                                        <div className="text-muted">{email}</div>
+                                    ))}
+                                    <br/>
                                 </div>
                             </Col>
                         </Row>
@@ -92,7 +96,9 @@ export default function ContactInfo() {
                             </Form.Group>
                             <Button variant="primary" className={"w-100 mt-3"}
                                     style={{marginBottom: '35px'}}>Send</Button>
+                            <br/><br/>
                         </Form>
+
                     </Col>
                 </Row>
 

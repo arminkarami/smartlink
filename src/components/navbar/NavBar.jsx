@@ -3,6 +3,7 @@ import './navBarStyle.css';
 import {Nav, Navbar} from "react-bootstrap";
 
 export default function NavBar() {
+    /*console.log(data.data.data.data[0].name)*/
     const[opacity, setOpacity] = useState(0);
     const[border, setBorder] = useState(0);
     const[blackColor, setBlackColor] = useState(false);

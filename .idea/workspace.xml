@@ -5,59 +5,68 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="502f63ea-fa5d-4d6e-8933-cd7c843dbf87" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/public/android-chrome-192x192.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/android-chrome-512x512.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/apple-touch-icon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/favicon-16x16.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/favicon-32x32.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/mstile-150x150.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/safari-pinned-tab.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/site.webmanifest" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/App2.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DataTable.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/footer/footer_Styles.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/home/Features.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/home/HowItWorks.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/home/homePost_Slider.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/home/homePost_Styles.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/home/slider/imageSlider.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/home/slider/slider.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/home/slider/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/home/slider/videoBackground.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/kontakt/kontaktPost_Header.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/kontakt/kontaktPost_Styles.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/navbar/NavBar.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/navbar/navBarStyle.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/preis/Preis.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/preis/header.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/preis/preis_Styles.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/services/ClientAppService.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/services/ManagerAppService.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/services/SmartLockService.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/services/header.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/services/services_Style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/team/header.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/firestore.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/Preis/index.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/useDocumentTitle.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/bs-react-web3.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/bs-react-web3.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/favicon.ico" beforeDir="false" afterPath="$PROJECT_DIR$/public/favicon.ico" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/logo192.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/logo192.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/logo512.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/logo512.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/api/Firebase.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/api/GetFeatures.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/api/GetPost.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/api/GetPreis.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/api/GetQuestion.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/api/GetServicesPosts.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/api/GetSliders.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/api/GetTeams.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/api/GetWebsiteInfo.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/services/ServicePosts.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/dashbord/components/menu.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/dashbord/pages/index.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/Navid.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/call-center-2275745.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/call-center-2275745_1280.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/call-center-2275745_1920.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/technology-3361983.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/technology-3361983_1920.jpg" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/footer/footer.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/footer/footer.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/home/Features.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/home/Features.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/home/HowItWorks.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/home/HowItWorks.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/home/IntroduceApp.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/home/Posts.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/home/IntroduceSmartwatchApp.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/home/homePost_Slider.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/home/slider/imageSlider.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/home/slider/imageSlider.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/kontakt/kontaktPost_KPost.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/kontakt/kontaktPost_KPost.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/kontakt/kontaktPost_map.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/kontakt/kontaktPost_map.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/navbar/NavBar.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/navbar/NavBar.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/preis/Preis.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/preis/Preis.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/services/ClientAppService.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/services/ClientAppService.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/services/QuestionSection.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/services/QuestionSection.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/services/SmartLockService.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/services/SmartLockService.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/services/servicesPost_Vernetze.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/team/Armin.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/team/Leila.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/team/Teams.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/team/Mahdi.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/Preis/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Preis/index.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/home/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/home/index.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/kontakt/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/kontakt/index.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/services/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/services/index.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/team/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/team/index.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="main" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
@@ -77,8 +86,9 @@
     &quot;Node.js.index.jsx.executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/mahdiabbasi/Smart Link/website/bs-react-web3/src/pages&quot;,
+    &quot;last_opened_file_path&quot;: &quot;E:/react/React-Bootstrap/bs-react-web3/src/components/team&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -90,6 +100,9 @@
 }</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\react\React-Bootstrap\bs-react-web3\src\components\team" />
+      <recent name="E:\react\React-Bootstrap\bs-react-web3\src\components\services" />
+      <recent name="E:\react\React-Bootstrap\bs-react-web3\src\components\home" />
       <recent name="$PROJECT_DIR$/src/pages" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
@@ -117,10 +130,43 @@
       <workItem from="1705944605100" duration="737000" />
       <workItem from="1706000514964" duration="8804000" />
       <workItem from="1714120554342" duration="918000" />
+      <workItem from="1714159517594" duration="9800000" />
+      <workItem from="1714209561229" duration="277000" />
+      <workItem from="1714217084813" duration="1308000" />
+      <workItem from="1714251335059" duration="3846000" />
+      <workItem from="1714292414797" duration="3677000" />
+      <workItem from="1714410986445" duration="10000" />
+      <workItem from="1714411926828" duration="479000" />
+      <workItem from="1714487681016" duration="1355000" />
+      <workItem from="1714554686181" duration="3768000" />
+      <workItem from="1714650494652" duration="1950000" />
+      <workItem from="1714724263334" duration="10763000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ID_ORDER">
+      <list>
+        <option value="Default.Root" />
+        <option value="Default.Author" />
+        <option value="Default.Date" />
+        <option value="Default.Subject" />
+        <option value="Space.CommitStatus" />
+      </list>
+    </option>
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>

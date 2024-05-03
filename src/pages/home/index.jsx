@@ -1,26 +1,36 @@
-import React from 'react';
+import React, {useEffect, useState} from 'react';
 import Slider from "../../components/home/slider/slider";
 import NavBar from "../../components/navbar/NavBar";
-import Footer from "../../components/footer/footer";
-import IntroduceApp from "../../components/home/IntroduceApp";
-import IntroduceSmartwatchApp from "../../components/home/IntroduceSmartwatchApp";
 import HowItWorks from "../../components/home/HowItWorks";
 import Features from "../../components/home/Features";
+import {getPosts} from "../../api/GetPost";
+import Posts from "../../components/home/Posts";
 
+
+function Post() {
+    return null;
+}
 
 export default function Home() {
+
+    const [posts, setPosts] = useState([])
+    const fetchPostsData = async () => {
+        const posts = await getPosts()
+        setPosts([...posts])
+    }
+    useEffect(() => {
+        fetchPostsData()
+    }, []);
+
     return (
         <div id="home">
-
             <NavBar/>
             <main>
                 <Slider/>
-                <HowItWorks/>
+                {(posts.length>0 && <HowItWorks data={posts[0]}/>)}
                 <Features/>
-                <IntroduceApp/>
-                <IntroduceSmartwatchApp/>
+                {(posts.length>0 && <Posts data={posts.slice(1)}/>)}
             </main>
-            <Footer/>
         </div>
     )
 }

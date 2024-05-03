@@ -6,6 +6,12 @@ import {BrowserRouter, Route, Routes} from 'react-router-dom';
 import Team from "./pages/team";
 import Price from "./pages/Preis";
 import useDocumentTitle from "./pages/useDocumentTitle";
+import {getWebsiteInfo} from "./api/GetWebsiteInfo";
+import React, {useEffect, useState} from "react";
+import Footer from "./components/footer/footer";
+import Dashbord from "./dashbord/pages";
+
+
 
 
 function Page(props) {
@@ -26,9 +32,13 @@ function TeamPage() {
 function PricePage() {
   return <Page content={<Price/>} title='Price' />
 }
-function ContactPage() {
-  return <Page content={<Contact/>} title='Contact' />
+function ContactPage(data) {
+  return <Page content={<Contact data={data}/>} title='Contact' />
 }
+/*function DashbordPage() {
+  return <Page content={<Dashbord/>} title='Dashbord' />
+}*/
+
 /*function NotFoundPage() {
   return <Page content={<NotFound/>} title='Not Found!' />
 }*/
@@ -36,19 +46,31 @@ function ContactPage() {
 
 function App() {
 
+  const [websiteInfo, setWebsiteInfo] = useState([])
+  const fetchWebsiteInfoData = async () => {
+    const websiteInfo= await getWebsiteInfo()
+    setWebsiteInfo([...websiteInfo])
+  }
+  useEffect(() => {
+    fetchWebsiteInfoData()
+  }, []);
+
   return (
       <div className="App">
         <BrowserRouter>
           <Routes>
-            <Route index element={<HomePage/>}/>
+            <Route index element={<HomePage />}/>
             <Route path="home" element={<HomePage/>}/>
             <Route path="team" element={<TeamPage/>}/>
             <Route path="services" element={<ServicesPage/>}/>
             <Route path="price" element={<PricePage/>}/>
-            <Route path="contact" element={<ContactPage/>}/>
+            <Route path="contact" element={<ContactPage data={websiteInfo}/>}/>
             <Route path="*" element={<HomePage/>}/>
+
+          {/*  <Route path="dashbord" element={<DashbordPage/>}/>}*/}
           </Routes>
         </BrowserRouter>
+        <Footer data={websiteInfo}/>
       </div>
   );
 }

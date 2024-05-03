@@ -1,41 +1,34 @@
-import React from 'react';
+import React, {useEffect, useState} from 'react';
 import {Container, Row, Col} from 'react-bootstrap';
 import FadeIn from '../fadeln/fadeln';
 import './footer_Styles.css'
 
-export default function Footer() {
+export default function Footer(dataInfo) {
     return (
         <FadeIn>
             <footer className="pt-5 pb-1 text-white bg_Fooder">
                 <Container>
                     <Row className="py-4">
                         <Col md={3}>
-                            <h2 className="mb-5 text_Color">SMARTLINK</h2>
-                            <p className="text_Color text-start">Explore the future of hospitality with our cutting-edge management
-                                system. Elevate your experience – where innovation meets seamless convenience.</p>
+
+                            <h2 className="mb-5 text_Color">{dataInfo.data[0] !== undefined && dataInfo.data[0].name}</h2>
+                            <p className="text_Color text-start">{dataInfo.data[0] !== undefined && dataInfo.data[0].description}</p>
                             <div className="footer-social">
                                 <ul className="list-unstyled mt-4  justify-content-around d-flex">
                                     <li className="me-3">
-                                        <a href="tel:+43777777777" className="text-decoration-none text_Color">
-
-                                            <span className="material-symbols-outlined">
-call
-</span>
-
+                                        <a href={dataInfo.data[0] !== undefined && dataInfo.data[0].phone[0]} className="text-decoration-none text_Color">
+                                            <span className="material-symbols-outlined">call</span>
                                         </a>
                                     </li>
                                     <li className="me-3">
-                                        <a href="mailto:test@smart-link.com" className="text-decoration-none text_Color">
-                                           <span className="material-symbols-outlined">
-mail
-</span>
+                                        <a href={dataInfo.data[0] !== undefined && dataInfo.data[0].email[0]}
+                                           className="text-decoration-none text_Color">
+                                            <span className="material-symbols-outlined">mail</span>
                                         </a>
                                     </li>
                                     <li className="me-3">
-                                        <a href="https://maps.google.com" className="text-decoration-none text_Color">
-                                            <span className="material-symbols-outlined">
-pin_drop
-</span>
+                                        <a href="https://maps.google.com" className="text-decoration-none text_Color" >
+                                            <span className="material-symbols-outlined">pin_drop</span>
                                         </a>
                                     </li>
                                 </ul>
@@ -68,7 +61,8 @@ pin_drop
                                     <a href="src/components#" className="text-decoration-none text_Color">Impression</a>
                                 </li>
                                 <li>
-                                    <a href="src/components#" className="text-decoration-none text_Color">Privacy Policy</a>
+                                    <a href="src/components#" className="text-decoration-none text_Color">Privacy
+                                        Policy</a>
                                 </li>
                             </ul>
                         </Col>
@@ -76,16 +70,11 @@ pin_drop
                             <h3 className="border-start border-4 ps-3 text_Color text-start"
                                 style={{borderColor: 'var(--main-color_text)'}}>Address</h3>
                             <ul className="list-unstyled mt-4 ms-4">
-                                <li>
-                                    <iframe
-                                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2659.3004066634885!2d16.3563800766626!3d48.20082937125052!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x476d078ff2f1f949%3A0xa07ae2c454a3ad72!2sMariahilfer%20Str.%2019-21%2F2%203%2C%201060%20Wien!5e0!3m2!1sen!2sat!4v1706005472541!5m2!1sen!2sat"
-                                        width="100%" height="150" style={{border: 0}} allowFullScreen="" loading="lazy"
-                                        referrerPolicy="no-referrer-when-downgrade"></iframe>
-                                    <a href="https://embedgooglemap.net/129/"></a>
+                                <li dangerouslySetInnerHTML={{ __html:dataInfo.data[0]!==undefined && dataInfo.data[0].mapLocation }} >
                                 </li>
                                 <li className="text_Color">
-                                    <i className="bi bi-geo-alt" style={{paddingRight: "10px"}}></i> Mariahilfestraße
-                                    21/2/3, Wien 1070
+                                    <i className="bi bi-geo-alt" style={{paddingRight: "10px"}}></i>
+                                    {dataInfo.data[0] !== undefined && dataInfo.data[0].address}
                                 </li>
                             </ul>
                         </Col>

@@ -21,6 +21,7 @@ export default function SmartLockService() {
                             Step into the future with our Door Opener. Securely open doors using fingerprints or mobile
                             devices, enhancing security and guest convenience. Immerse yourself in the seamless blend of
                             innovation and access control.
+
                             <Row className="row-cols-auto">
                                 <Col className="divIcon">
                                     <IoFingerPrintSharp/>
