@@ -19,6 +19,5 @@ export const getTeams = async () => {
         })
         index++;
     })
-
     return teamsList
 }

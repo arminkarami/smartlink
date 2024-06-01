@@ -4,50 +4,23 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="502f63ea-fa5d-4d6e-8933-cd7c843dbf87" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/api/Firebase.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/api/GetFeatures.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/api/GetPost.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/api/GetPreis.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/api/GetQuestion.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/api/GetServicesPosts.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/api/GetSliders.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/api/GetTeams.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/api/GetWebsiteInfo.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/services/ServicePosts.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/dashbord/components/menu.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/dashbord/pages/index.jsx" afterDir="false" />
+    <list default="true" id="502f63ea-fa5d-4d6e-8933-cd7c843dbf87" name="Changes" comment="the website is completely dynamic now">
+      <change afterPath="$PROJECT_DIR$/src/dashbord/components/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/Navid.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/call-center-2275745.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/call-center-2275745_1280.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/call-center-2275745_1920.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/technology-3361983.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/technology-3361983_1920.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/favicon-16x16.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/favicon-16x16.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/favicon-32x32.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/favicon-32x32.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/favicon.ico" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/footer/footer.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/footer/footer.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/home/Features.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/home/Features.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/home/HowItWorks.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/home/HowItWorks.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/home/IntroduceApp.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/home/Posts.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/home/IntroduceSmartwatchApp.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/home/homePost_Slider.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/home/slider/imageSlider.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/home/slider/imageSlider.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/kontakt/kontaktPost_KPost.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/kontakt/kontaktPost_KPost.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/kontakt/kontaktPost_map.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/kontakt/kontaktPost_map.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/api/Firebase.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/api/Firebase.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/api/GetFeatures.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/api/GetFeatures.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/api/GetTeams.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/api/GetTeams.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/navbar/NavBar.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/navbar/NavBar.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/preis/Preis.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/preis/Preis.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/services/ClientAppService.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/services/ClientAppService.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/services/QuestionSection.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/services/QuestionSection.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/services/SmartLockService.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/services/SmartLockService.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/services/servicesPost_Vernetze.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/team/Armin.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/team/Leila.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/team/Teams.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/team/Mahdi.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/Preis/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Preis/index.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/home/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/home/index.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/navbar/navBarStyle.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/navbar/navBarStyle.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dashbord/components/menu.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/dashbord/components/menu.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dashbord/pages/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/dashbord/pages/index.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/kontakt/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/kontakt/index.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/services/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/services/index.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/team/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/team/index.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -84,35 +57,38 @@
   &quot;keyToString&quot;: {
     &quot;Node.js.App.js.executor&quot;: &quot;Run&quot;,
     &quot;Node.js.index.jsx.executor&quot;: &quot;Run&quot;,
+    &quot;Node.js.menu.jsx.executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;last_opened_file_path&quot;: &quot;E:/react/React-Bootstrap/bs-react-web3/src/components/team&quot;,
+    &quot;last_opened_file_path&quot;: &quot;E:/react/React-Bootstrap/bs-react-web3/src/dashbord/components&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;ts.external.directory.path&quot;: &quot;/Applications/WebStorm.app/Contents/plugins/javascript-impl/jsLanguageServicesImpl/external&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;C:\\Program Files\\JetBrains\\WebStorm 2022.3.2\\plugins\\javascript-plugin\\jsLanguageServicesImpl\\external&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\react\React-Bootstrap\bs-react-web3\src\dashbord\components" />
       <recent name="E:\react\React-Bootstrap\bs-react-web3\src\components\team" />
       <recent name="E:\react\React-Bootstrap\bs-react-web3\src\components\services" />
       <recent name="E:\react\React-Bootstrap\bs-react-web3\src\components\home" />
       <recent name="$PROJECT_DIR$/src/pages" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\react\React-Bootstrap\bs-react-web3\public" />
       <recent name="$PROJECT_DIR$/public" />
     </key>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-js-predefined-1d06a55b98c1-2e7d6887c066-JavaScript-WS-241.15989.47" />
+        <option value="bundled-js-predefined-1d06a55b98c1-91d5c284f522-JavaScript-WS-241.15989.105" />
       </set>
     </attachedChunks>
   </component>
@@ -140,8 +116,25 @@
       <workItem from="1714487681016" duration="1355000" />
       <workItem from="1714554686181" duration="3768000" />
       <workItem from="1714650494652" duration="1950000" />
-      <workItem from="1714724263334" duration="10763000" />
+      <workItem from="1714724263334" duration="12944000" />
+      <workItem from="1714739805850" duration="3691000" />
+      <workItem from="1714998729012" duration="792000" />
+      <workItem from="1715072517562" duration="64000" />
+      <workItem from="1715076448710" duration="2286000" />
+      <workItem from="1715100237735" duration="196000" />
+      <workItem from="1715365643632" duration="1587000" />
+      <workItem from="1715515287489" duration="4328000" />
+      <workItem from="1715619883853" duration="1710000" />
+      <workItem from="1717264058585" duration="1398000" />
     </task>
+    <task id="LOCAL-00001" summary="the website is completely dynamic now">
+      <created>1714737615076</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1714737615076</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -168,5 +161,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="the website is completely dynamic now" />
+    <option name="LAST_COMMIT_MESSAGE" value="the website is completely dynamic now" />
   </component>
 </project>

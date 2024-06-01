@@ -2,7 +2,7 @@ import React, {useEffect, useState} from "react";
 import './navBarStyle.css';
 import {Nav, Navbar} from "react-bootstrap";
 
-export default function NavBar() {
+export default function NavBar(dataWebSiteInfo) {
     /*console.log(data.data.data.data[0].name)*/
     const[opacity, setOpacity] = useState(0);
     const[border, setBorder] = useState(0);
@@ -33,13 +33,14 @@ export default function NavBar() {
             borderBottom: border + "px solid var(--primary-color)",
         }}>
             <Navbar className='navbar' expand="lg"
-                    style={{padding: "15px", fontWeight: "bold"}}>
+                    style={{padding: "10px", fontWeight: "bold"}}>
                 <Navbar.Brand href="https://smartlink-pro.web.app/">
                     <img
-                        src="https://firebasestorage.googleapis.com/v0/b/smartlink-pro.appspot.com/o/logo-modified.png?alt=media&token=97051278-01f9-4551-ad4b-91d604e3a5cd"
+                        // src={{ __html:dataWebSiteInfo.data.data.data[0]!==undefined && dataWebSiteInfo.data.data.data[0].logo }}
+                        src="https://firebasestorage.googleapis.com/v0/b/smartlink-pro.appspot.com/o/website%2FArtboard%201black.png?alt=media&token=4b93f411-71db-4867-a7b7-d76b1e61c16b"
                         width="50"
                         height="50"
-                        className="d-inline-block align-top"
+                        className="d-inline-block align-top "
                         alt="Ashna logo"
                     />
                 </Navbar.Brand>

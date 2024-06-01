@@ -35,9 +35,9 @@ function PricePage() {
 function ContactPage(data) {
   return <Page content={<Contact data={data}/>} title='Contact' />
 }
-/*function DashbordPage() {
+function DashbordPage() {
   return <Page content={<Dashbord/>} title='Dashbord' />
-}*/
+}
 
 /*function NotFoundPage() {
   return <Page content={<NotFound/>} title='Not Found!' />
@@ -67,7 +67,7 @@ function App() {
             <Route path="contact" element={<ContactPage data={websiteInfo}/>}/>
             <Route path="*" element={<HomePage/>}/>
 
-          {/*  <Route path="dashbord" element={<DashbordPage/>}/>}*/}
+            <Route path="dashboard" element={<DashbordPage/>}/>
           </Routes>
         </BrowserRouter>
         <Footer data={websiteInfo}/>

@@ -1,4 +1,4 @@
-import {collection, getDocs, query, orderBy, limit, where, startAfter} from "firebase/firestore";
+import {collection, getDocs, query} from "firebase/firestore";
 import {myFirebase} from "./Firebase";
 
 const collection_name = "/website/websiteInfo/features";

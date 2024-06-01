@@ -6,7 +6,7 @@
         margin: 0 20px;
     }
 
-   .navbar-nav {
+    .navbar-nav {
         flex-direction: row;
         margin: auto;
     }
@@ -44,7 +44,6 @@
         font-size: 18px;
         margin-right: 20px;
     }
-
 }
 
 #home .nav-link{

@@ -1,7 +1,6 @@
 import { initializeApp } from "firebase/app";
 import { getFirestore } from "firebase/firestore";
 
-
 let db = false;
 
 export const myFirebase = () => {
@@ -15,12 +14,8 @@ export const myFirebase = () => {
             appId: "1:504400761702:web:6fe0c8e8e44796cca92ea7",
             measurementId: "G-Q7BC518SGK"
         };
-
         const firebaseApp = initializeApp(firebaseConfig)
-
-
         db = getFirestore(firebaseApp)
     }
-
     return db
 }
