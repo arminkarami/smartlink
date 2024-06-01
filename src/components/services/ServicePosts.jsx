@@ -26,13 +26,13 @@ export default function ServicePosts() {
                         <Row className="align-items-center post mainsection m-auto justify-content-center">
                             {(service.index % 2 === 1) &&
                                 <Col md={5}>
-                                    <Carousel>
-                                        <Carousel.Item>
+
+
                                             <img
                                                 src={service.img}
-                                                className="img-fluid" alt="Smart Home"/>
-                                        </Carousel.Item>
-                                    </Carousel>
+                                                className="me-3 img-fluid rounded shadow w-100" alt="Smart Home"/>
+
+
                                 </Col>}
                                 <Col md={5}>
                                 <h4>{service.title}</h4>
@@ -50,13 +50,9 @@ export default function ServicePosts() {
                             </Col>
                             {(service.index % 2 === 0) &&
                                 <Col md={5}>
-                                    <Carousel>
-                                        <Carousel.Item>
                                             <img
                                                 src={service.img}
-                                                className="img-fluid" alt="Smart Home"/>
-                                        </Carousel.Item>
-                                    </Carousel>
+                                                className=" m-2 img-fluid rounded shadow w-100" alt="Smart Home"/>
                                 </Col>}
                         </Row>
                     </section>
